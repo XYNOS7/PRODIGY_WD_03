@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roby | Ecommerce Sneakers Landing Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav-logo">Roby</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#featured" class="nav-link">Featured</a></li>
+                    <li class="nav-item"><a href="#women" class="nav-link">Women</a></li>
+                    <li class="nav-item"><a href="#new" class="nav-link">New</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-shop">
+                <i class="bx bx-shopping-bag"></i>
+                <span class="cart-counter" id="cart-counter">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home-container bd-grid">
+                <div class="home-sneaker">
+                    <div class="home-shape"></div>
+                    <img src="https://i.postimg.cc/N0kPY9TT/imghome.png" alt="" class="home-img">
+                </div>
+
+                <div class="home-data">
+                    <span class="home-new">New in</span>
+                    <h1 class="home-title">YEEZY BOOST <br> SPLY - 350</h1>
+                    <p class="home-description">Explore the new collections of sneakers</p>
+                    <a href="#" class="button">Explore Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured" id="featured">
+            <h2 class="section-title">FEATURED</h2>
+
+            <div class="featured-container bd-grid">
+    <article class="sneaker">
+        <div class="sneaker-sale">Sale</div>
+        <img src="https://i.postimg.cc/BbYwJ393/featured2.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike Free RN</span>
+        <span class="sneaker-price">$149.99</span>
+        <a href="#" class="button-light" data-product-id="1">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+
+    <article class="sneaker">
+        <div class="sneaker-sale">Sale</div>
+        <img src="https://i.postimg.cc/k4Zj2mXv/featured3.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike Free RN</span>
+        <span class="sneaker-price">$149.99</span>
+        <a href="#" class="button-light" data-product-id="2">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+</div>
+        </section>
+
+        <section class="collection section">
+            <div class="collection-container bd-grid">
+                <div class="collection-card">
+                    <div class="collection-data">
+                        <h3 class="collection-name">Adidas</h3>
+                        <p class="collection-description">New Collection 2025</p>
+                        <a href="#" class="button-light">Buy Now <i class="bx bx-right-arrow-alt button-icon"></i></a>
+                    </div>
+
+                    <img src="https://i.postimg.cc/dVLgt4BF/collection2.png" alt="" class="collection-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="women section" id="women">
+            <h2 class="section-title">WOMEN SNEAKERS</h2>
+
+            <div class="women-container bd-grid">
+    <article class="sneaker">
+        <img src="https://i.postimg.cc/3wWGqDYn/women1.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike Free TR</span>
+        <span class="sneaker-price">$129.99</span>
+        <a href="#" class="button-light" data-product-id="3">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+
+    <article class="sneaker">
+        <img src="https://i.postimg.cc/fbFdQTbZ/women2.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike Free TR</span>
+        <span class="sneaker-price">$129.99</span>
+        <a href="#" class="button-light" data-product-id="4">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+
+    <article class="sneaker">
+        <img src="https://i.postimg.cc/FRLLr5fS/women3.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike GS Pink</span>
+        <span class="sneaker-price">$129.99</span>
+        <a href="#" class="button-light" data-product-id="5">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+
+    <article class="sneaker">
+        <img src="https://i.postimg.cc/L5FZhCfb/women4-1.png" alt="" class="sneaker-img">
+        <span class="sneaker-name">Nike Get 5</span>
+        <span class="sneaker-price">$129.99</span>
+        <a href="#" class="button-light" data-product-id="6">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></a>
+    </article>
+</div>
+        </section>
+
+        <section class="offer section">
+            <div class="offer-container bd-grid">
+                <div class="offer-data">
+                    <h3 class="offer-title">50% OFF</h3>
+                    <p class="offer-description">In Adidas Sneakers</p>
+                    <a href="#" class="button">Shop Now</a>
+                </div>
+
+                <img src="https://i.postimg.cc/63MpxMcZ/offert.png" alt="" class="offer-img">
+            </div>
+        </section>
+
+        <section class="new section" id="new">
+    <h2 class="section-title">NEW COLLECTION</h2>
+
+    <div class="new-container bd-grid">
+        <div class="new-mens">
+            <img src="https://i.postimg.cc/8CqqJMCY/new1.png" alt="" class="new-mens-img">
+            <h3 class="new-title">Mens Shoes</h3>
+            <span class="new-price">From $79.99</span>
+            <a href="#" class="button-light">View Collection <i class="bx bx-right-arrow-alt button-icon"></i></a>
+        </div>
+
+        <div class="new-sneaker">
+            <div class="new-sneaker-card">
+                <img src="https://i.postimg.cc/gJWgbDjG/new2.png" alt="" class="new-sneaker-img">
+                <div class="new-sneaker-overlay">
+                    <a href="#" class="button" data-product-id="7">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="new-sneaker-card">
+                <img src="https://i.postimg.cc/mDgF9z6Q/new4.png" alt="" class="new-sneaker-img">
+                <div class="new-sneaker-overlay">
+                    <a href="#" class="button" data-product-id="8">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="new-sneaker-card">
+                <img src="https://i.postimg.cc/5yFy5w5F/new5-1.png" alt="" class="new-sneaker-img">
+                <div class="new-sneaker-overlay">
+                    <a href="#" class="button" data-product-id="9">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="newsletter section">
+            <div class="newsletter-container bd-grid">
+                <div>
+                    <h3 class="newsletter-title">Subscribe and get <br>10% OFF</h3>
+                    <p class="newsletter-description">Get 10% discount for all products</p>
+                </div>
+
+                <form action="" class="newsletter-subscribe">
+                    <input type="text" class="newsletter-input" placeholder="@email.com">
+                    <a href="#" class="button">Subscribe</a>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer section">
+            <div class="footer-container bd-grid">
+                <div class="footer-box">
+                    <h3 class="footer-title">Roby</h3>
+                    <p class="footer-description">New Collection of shoes 2025</p>
+                </div>
+
+                <div class="footer-box">
+                    <h3 class="footer-title">EXPLORE</h3>
+                    <ul>
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#featured" class="footer-link">Featured</a></li>
+                        <li><a href="#women" class="footer-link">Women</a></li>
+                        <li><a href="#new" class="footer-link">New</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <h3 class="footer-title">SUPPORT</h3>
+                    <ul>
+                        <li><a href="#home" class="footer-link">Product Help</a></li>
+                        <li><a href="#featured" class="footer-link">Customer Care</a></li>
+                        <li><a href="#women" class="footer-link">Authorized Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-box">
+                    <a href="#" class="footer-social"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer-social"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer-social"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="#" class="footer-social"><i class="bx bxl-google"></i></a>
+                </div>
+            </div>
+
+            <p class="footer-copy">&#169; 2025 <a href="https://codepen.io/leonam-silva-de-souza" target="_blank">ULTRA CODE</a>. All rights reserved</p>
+        </footer>
+    </main>
+
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- CART SECTION -->
+<div class="cart-overlay" id="cart-overlay">
+    <div class="cart-container">
+        <div class="cart-header">
+            <h3 class="cart-title">Your Cart</h3>
+            <i class="bx bx-x cart-close" id="cart-close"></i>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be dynamically added here by JavaScript -->
+            <p class="cart-empty-message">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <h4 class="cart-total">Total: <span id="cart-total-price">$0.00</span></h4>
+            <button class="truck-button">
+    <span class="default">Complete Order</span>
+    <span class="success">
+        Order Placed
+        <svg viewbox="0 0 12 10">
+            <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+        </svg>
+    </span>
+    <div class="truck">
+        <div class="wheel"></div>
+        <div class="back"></div>
+        <div class="front"></div>
+        <div class="box"></div>
+    </div>
+</button>
+
+<!-- dribbble - twitter -->
+<a class="dribbble" href="https://dribbble.com/shots/9552163-Complete-order-button" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""></a>
+</div>
+    </div>
+</div>
+</body>
+</html>
